@@ -17,10 +17,6 @@ sudo chown root docker-compose
 sudo mv docker-compose /usr/local/bin
 sudo chmod +x /usr/local/bin/docker-compose
 
-# Clone the jenkins-ec2-docker project
-# ------------------------------------------------------------
-sudo git clone https://github.com/CraigsTraining/jenkins-ec2-docker
-
 # Download and build the Jenkins image
 # ------------------------------------------------------------
 jenkins-ec2-docker/make build
