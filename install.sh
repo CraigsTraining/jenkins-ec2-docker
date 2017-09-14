@@ -19,11 +19,15 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Download and build the Jenkins image
 # ------------------------------------------------------------
-jenkins-ec2-docker/make build
+cd jenkins-ec2-docker
+
+# Download and build the Jenkins image
+# ------------------------------------------------------------
+make build
 
 # Start the Jenkins instance
 # ------------------------------------------------------------
-jenkins-ec2-docker/make start
+make start
 
 # Get the admin password for the instance from
 #	~/Jenkins/secrets/initialAdminPassword
