@@ -103,5 +103,19 @@ When the build process is completed you can start your instance again using:
 
 ```docker-compose up -d```
 
+# License
 
+The content in this repository is Open Source material released under the Apache 2.0 License. Please see the [LICENSE](LICENSE) file for full license details.
+
+# Disclaimer
+
+The code in this repository is not sponsored or supported by Cloudbees, Inc.
+
+# Authors and Contributors 
+
+* Author: [Craig Vitter](https://github.com/cvitter)
+ 
+# Questions, Feedback, Pull Requests Etc.
+
+If you have any questions, feedback, suggestions, etc. please submit them via issues or, even better, submit a Pull Request!
 
